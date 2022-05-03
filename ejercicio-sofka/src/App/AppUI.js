@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Footer from "./footer/footer";
 import Home from "./home/home";
 import Navbar from "./Navbar/Navbar";
@@ -6,13 +6,12 @@ import TodoComponent from "./TodoComponent/TodoComponent";
 
 function AppUI() {
   return (
-    <div>
+    <Fragment>
       <Navbar />
-
       <Home />
       <TodoComponent />
       <Footer />
-    </div>
+    </Fragment>
   );
 }
 
