@@ -8,8 +8,9 @@ function AppUI() {
   return (
     <div>
       <Navbar />
-      <TodoComponent />
+
       <Home />
+      <TodoComponent />
     </div>
   );
 }
