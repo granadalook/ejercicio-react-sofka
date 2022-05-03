@@ -6,7 +6,7 @@ const Navbar = () => {
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
           <h5 class="text-white h4">BIENVENIDOS A TU NUEVO TODOs LIST</h5>
-          <span class="text-muted">Deseas ver tu lista</span>
+          <span class="text-muted">Deseas crear tu nueva lista de tareas</span>
         </div>
       </div>
       <nav class="navbar navbar-dark bg-dark">
